@@ -10,22 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Clonar Respositorio
-      uses: actions/checkout@v4
+      - name: Clonar Respositorio
+        uses: actions/checkout@v4
 
-    - name: Configurar Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
     
-    - name: Lint del Codigo
-      run: npm run lint
+      - name: Lint del Codigo
+        run: npm run lint
 
-    - name: Run tests
-      run: npm test
+      - name: Run tests
+        run: npm test
 
-    - name: Simular despliegue
-      run: echo "Despliegue simulado exitosamente"
+      - name: Simular despliegue
+        run: echo "Despliegue simulado exitosamente"
