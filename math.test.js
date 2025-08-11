@@ -13,7 +13,7 @@ describe('Pruebas de funciones matemáticas', () => {
   });
 
   test('Factorial con número negativo debe lanzar error', () => {
-    expect(() => factorial(-1)).toThrow("No existe factorial de números negativos");
+    expect(() => factorial(-1)).toThrow('No existe factorial de números negativos');
   });
 
   // Pruebas fibonacci
@@ -26,7 +26,7 @@ describe('Pruebas de funciones matemáticas', () => {
   });
 
   test('Fibonacci con número negativo debe lanzar error', () => {
-    expect(() => fibonacci(-5)).toThrow("No existe fibonacci de números negativos");
+    expect(() => fibonacci(-5)).toThrow('No existe fibonacci de números negativos');
   });
 
   // Prueba de suma

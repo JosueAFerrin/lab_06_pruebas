@@ -2,7 +2,7 @@
 
 // Función factorial (iterativa)
 function factorial(n) {
-  if (n < 0) throw new Error("No existe factorial de números negativos");
+  if (n < 0) throw new Error('No existe factorial de números negativos');
   let result = 1;
   for (let i = 2; i <= n; i++) {
     result *= i;
@@ -12,7 +12,7 @@ function factorial(n) {
 
 // Función fibonacci (iterativa)
 function fibonacci(n) {
-  if (n < 0) throw new Error("No existe fibonacci de números negativos");
+  if (n < 0) throw new Error('No existe fibonacci de números negativos');
   if (n === 0) return 0;
   if (n === 1) return 1;
 
