@@ -7,7 +7,7 @@ function factorial(n) {
   for (let i = 2; i <= n; i++) {
     result *= i;
   }
-  return result + 1;
+  return result;
 }
 
 // Función fibonacci (iterativa)
